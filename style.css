@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
+/* Container Style Start */
 * {
-    color: #000000;
+    color: #000;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
     width: 700px;
-    background: #eeeeee;
+    background: #eee;
     margin: auto;
     padding: 40px 0px;
 }
@@ -18,6 +19,10 @@ body {
     padding: 1.5em 1.5em;
     box-shadow: 10px 5px 5px 5px #ddd;
 }
+
+/* Container Style End */
+
+/* Title Header Style Start */
 
 header {
     text-align: center;
@@ -32,8 +37,14 @@ h1 {
     text-align: left;
 }
 
-hr {
-    color: #dfded9;
+/* Title Header Style End */
+
+/* Navbar Style Start */
+
+nav {
+    border-top: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -47,12 +58,15 @@ nav li {
     padding-right: 10px;
     font-size: 12px;
     color: #777;
-    margin: auto;
 }
 
 a {
     text-decoration: none;
 }
+
+/* Navbar Style End */
+
+/* Main Article Sytle Start */
 
 h2 {
     font-family: 'Roboto Slab', arial;
@@ -60,15 +74,28 @@ h2 {
     font-size: 30px;
 }
 
-h4 {
-    font-family: 'Roboto Slab', arial;
-}
-
 h5 {
     color: #dd3232;
     font-weight: bold;
     font-size: 16px;
     margin-top: 0px;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    border-bottom: 3px solid #eee;
+    padding-bottom: 20px;
+}
+
+/* Main Article Sytle End */
+
+/* Additional Articles Sytle Start */
+
+h4 {
+    font-family: 'Roboto Slab', arial;
 }
 
 .more-articles {
@@ -88,4 +115,4 @@ section p {
     text-align: center;
 }
 
-
+/* Additional Articles Sytle End */
