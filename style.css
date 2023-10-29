@@ -110,7 +110,7 @@ h4 {
 section {
     display: inline-block;
     width: 50%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 section p {
