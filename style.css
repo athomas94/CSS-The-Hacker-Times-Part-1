@@ -104,18 +104,47 @@ h4 {
 .more-articles {
     width: 100%;
     margin: auto;
-    display: flex;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr );
 }
 
-section {
-    display: inline-block;
-    width: 50%;
+.more-articles section {
     margin: 0 auto;
+    text-align: center;
+    border-bottom: 3px solid #eee;
 }
 
-section p {
-    width: 90%;
+.article-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.article-3 section {
+    width: 200px;
+}
+
+.article-3 section img {
+    width: 200px;
+}
+/* Additional Articles Sytle End */
+
+/* Footer Start*/
+
+footer {
+    padding: 15px 15px;
+    border-top: 3px solid #eee;
+}
+
+footer ul {
+    list-style: none;
+    margin: auto;
     text-align: center;
 }
 
-/* Additional Articles Sytle End */
+footer li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 12px;
+    color: #777;
+}
+/* Footer End*/
